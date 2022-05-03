@@ -17,19 +17,19 @@ This code was written to create the algorithms which the proposed framework woul
 
 Open source dataset utilised: Hassall, K. L., Dye, A. and Bell, J. R. 2020. Extracted features from opto-acoustic audio recordings of aphids and beetles. Rothamsted Research. https://doi.org/10.23637/rothamsted.981w8
 
-##Technologies
+#Technologies
 *numpy: Version
 *matplotlib: Version
 *sns: Version
 *bnlearn: Version
 
-#Repository contents:
+## Repository contents:
 1. RFC.ipynb
   a. Random forest classifier notebook
 2. SVM.ipynb
   a. Support vector machine notebook
 
-#Methodology 
+## Methodology 
 1. Both notebooks have the same data preprocessing:
   a. Importing basic librares and the dataset
   b. Dropping unneeded features from the dataset
@@ -41,7 +41,7 @@ Open source dataset utilised: Hassall, K. L., Dye, A. and Bell, J. R. 2020. Extr
   h. Data imbalance handling
 2. Key difference between the two notebooks is the machine learning model used: Random forest classifier and support vector machine model.
 
-#Abbreviations
+## Abbreviations
 RFC = Random forest classifier
 SVM = Support vector machine
 LMAG = log_maxAmp_g
