@@ -19,58 +19,58 @@ This code was written to create the algorithms which the proposed framework woul
 
 Open source dataset utilised: Hassall, K. L., Dye, A. and Bell, J. R. 2020. Extracted features from opto-acoustic audio recordings of aphids and beetles. Rothamsted Research. https://doi.org/10.23637/rothamsted.981w8
 
-#Technologies
-*numpy: Version 1.21.6
+## Technologies
+numpy: Version 1.21.6
 
-*pandas: Version 1.3.5
+pandas: Version 1.3.5
 
-*matplotlib: Version 3.5.2
+matplotlib: Version 3.5.2
 
-*sns: Version 0.11.2
+sns: Version 0.11.2
 
-*fancyimpute: Version 0.7.0
+fancyimpute: Version 0.7.0
 
-*sklearn: Version 0.0
+sklearn: Version 0.0
 
-*imblearn: Version 0.8.1
+imblearn: Version 0.8.1
 
-*shap: Version 0.40.0
+shap: Version 0.40.0
 
-*lime: Version 0.2.0.1
+lime: Version 0.2.0.1
 
-*alibi: Version 0.6.5
+alibi: Version 0.6.5
 
-*dython: Version 0.7.1
+dython: Version 0.7.1
 
-*bnlearn: Version 0.6.3
+bnlearn: Version 0.6.3
 
 ## Repository contents:
 1. RFC.ipynb
 
-  a. Random forest classifier notebook
+      a. Random forest classifier notebook
   
 2. SVM.ipynb
 
-  a. Support vector machine notebook
+      a. Support vector machine notebook
 
 ## Methodology 
 1. Both notebooks have the same data preprocessing:
 
-  a. Importing basic librares and the dataset
+      a. Importing basic librares and the dataset
   
-  b. Dropping unneeded features from the dataset
+      b. Dropping unneeded features from the dataset
   
-  c. Handling missing values
+      c. Handling missing values
   
-  d. Removing species object classes with low instances
+      d. Removing species object classes with low instances
   
-  e. Scaling
+      e. Scaling
   
-  f. Feature selection
+      f. Feature selection
   
-  g. Data splitting for training and testing
+      g. Data splitting for training and testing
   
-  h. Data imbalance handling
+      h. Data imbalance handling
   
 2. Key difference between the two notebooks is the machine learning model used: Random forest classifier and support vector machine model.
 
