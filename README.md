@@ -20,13 +20,29 @@ This code was written to create the algorithms which the proposed framework woul
 Open source dataset utilised: Hassall, K. L., Dye, A. and Bell, J. R. 2020. Extracted features from opto-acoustic audio recordings of aphids and beetles. Rothamsted Research. https://doi.org/10.23637/rothamsted.981w8
 
 #Technologies
-*numpy: Version
+*numpy: Version 1.21.6
 
-*matplotlib: Version
+*pandas: Version 1.3.5
 
-*sns: Version
+*matplotlib: Version 3.5.2
 
-*bnlearn: Version
+*sns: Version 0.11.2
+
+*fancyimpute: Version 0.7.0
+
+*sklearn: Version 0.0
+
+*imblearn: Version 0.8.1
+
+*shap: Version 0.40.0
+
+*lime: Version 0.2.0.1
+
+*alibi: Version 0.6.5
+
+*dython: Version 0.7.1
+
+*bnlearn: Version 0.6.3
 
 ## Repository contents:
 1. RFC.ipynb
